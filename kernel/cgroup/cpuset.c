@@ -163,7 +163,7 @@ struct cpuset {
 	int child_ecpus_count;
 };
 
-#define CS_CGROUP_COUNT	20
+#define CS_CGROUP_COUNT	2000
 static struct cpuset requested_cs[CS_CGROUP_COUNT];
 static int cs_count;
 
